@@ -1,0 +1,75 @@
+@font-face {
+  font-family: opens;
+  src: url(opens.ttf);
+}
+@font-face{
+	font-family: SairaExtraCondensed-SemiBold;
+	src: url(SairaExtraCondensed-SemiBold.ttf);
+}
+
+.section1 {
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #bd5d38;
+}
+
+.photo_profil{
+	width: 200px;
+	background: #ca7d60;
+	border-radius: 50%;
+	position: relative;
+	top: 100px;
+	left: 10%;
+	height: 200px;
+
+}
+.photo_profil img {
+	width: 180px;
+	height: 180px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+.navigation{
+	position: relative;
+	top: 130px;
+	margin-left: 25%;
+}
+.navigation .nav_barre a{
+	text-decoration: none;
+	color: #eed6cd;
+	font-family: opens, serif;
+	padding: 8px;
+	text-transform: uppercase;
+	display: block;
+
+}
+
+.navigation .nav_barre a:hover{
+	color: #fff;
+	font-weight: bolder;
+}
+.my_bio .identite h1{
+	font-size: 90px;
+	font-weight: ;
+	text-transform: uppercase;
+	font-family: SairaExtraCondensed-SemiBold;
+	font-weight: bolder;
+	color : #343a40;
+}
+.my_bio .identite h1 span {
+	color: rgb(189, 93, 56);
+}
+.section2 {
+	width: 70%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background:#fff;
+	display: flex;
+}
+
